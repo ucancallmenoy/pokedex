@@ -1,0 +1,41 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./resources/**/*.blade.php",
+    "./resources/**/*.jsx",
+    "./resources/**/*.js",
+  ],
+  theme: {
+    extend: {
+        colors: {
+        'primary-red': 'var(--primary-red)',
+        'primary-white': 'var(--primary-white)',
+        'primary-light-gray': 'var(--primary-light-gray)',
+        'primary-black': 'var(--primary-black)',
+        'primary-dark-gray': 'var(--primary-dark-gray)',
+        'accent-blue': 'var(--accent-blue)',
+        'accent-yellow': 'var(--accent-yellow)',
+        'accent-green': 'var(--accent-green)',
+        'type-fire': 'var(--type-fire)',
+        'type-water': 'var(--type-water)',
+        'type-grass': 'var(--type-grass)',
+        'type-electric': 'var(--type-electric)',
+        'type-psychic': 'var(--type-psychic)',
+        'type-ice': 'var(--type-ice)',
+        'type-dragon': 'var(--type-dragon)',
+        'type-dark': 'var(--type-dark)',
+        'type-fairy': 'var(--type-fairy)',
+        'type-fighting': 'var(--type-fighting)',
+        'type-poison': 'var(--type-poison)',
+        'type-ground': 'var(--type-ground)',
+        'type-flying': 'var(--type-flying)',
+        'type-bug': 'var(--type-bug)',
+        'type-rock': 'var(--type-rock)',
+        'type-ghost': 'var(--type-ghost)',
+        'type-steel': 'var(--type-steel)',
+        'type-normal': 'var(--type-normal)',
+      },
+    },
+  },
+  plugins: [],
+}
